@@ -75,7 +75,7 @@ def train_and_save_model():
     print("Cross-val accuracy:", scores.mean())
 
     joblib.dump(clf, "plastic_model.pkl")
-    print("✅ Model trained and saved as plastic_model.pkl")
+    print(" Model trained and saved as plastic_model.pkl")
 
 # ---------------- Load Model ----------------
 def load_model():
